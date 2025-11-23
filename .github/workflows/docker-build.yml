@@ -3,10 +3,10 @@ name: Docker Build Check
 on:
   push:
     branches:
-      - main
+      - react-app
   pull_request:
     branches:
-      - main
+      - react-app
 
 jobs:
   docker-build:

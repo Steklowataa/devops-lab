@@ -3,10 +3,10 @@ name: Frontend Build & Publish
 on:
   push:
     branches:
-      - main
+      - react-app
   pull_request:
     branches:
-      - main
+      - react-app
 
 jobs:
   build-frontend:
@@ -30,3 +30,4 @@ jobs:
         run: |
           cd my-react-app
           npm run build
+
